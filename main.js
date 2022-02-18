@@ -44,8 +44,8 @@ function init() {
     let count1990 = 0;
     let count2010 = 0;
     let count2020 = 0;
-    // for (var i = 0; i < buildings_info.buildings.length; i++) {
-        for (var i = 0; i < 10; i++) {
+    for (var i = 0; i < buildings_info.buildings.length; i++) {
+        // for (var i = 0; i < 10; i++) {
         let address = buildings_info.buildings[i].address;
         let year = buildings_info.buildings[i].year;
         let information = buildings_info.buildings[i].serie;
